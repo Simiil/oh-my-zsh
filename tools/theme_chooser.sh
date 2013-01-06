@@ -9,6 +9,8 @@
 
 THEMES_DIR="$ZSH/themes"
 FAVLIST="${HOME}/.zsh_favlist"
+echo $THEMES_DIR
+echo $ZSH
 source $ZSH/oh-my-zsh.sh
 
 function noyes() {
